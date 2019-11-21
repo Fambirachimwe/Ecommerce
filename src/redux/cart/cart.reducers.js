@@ -4,7 +4,7 @@ import { addItemToCart } from './cart.util';
 
 
 
-const INITIAL_STATE = {
+const INITIAL_STATE = {  // we can connect the the mongodb database to use the contens in the database as initial state of the reducer 
     hidden: true,
     cartItems: []
 };

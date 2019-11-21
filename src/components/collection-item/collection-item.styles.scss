@@ -1,10 +1,11 @@
 .collection-item {
-    width: 22%;
+    width: 22vw;
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 450px;
     align-items: center;
     position: relative;
+    padding : 9px;
   
     .image {
       width: 100%;
@@ -18,13 +19,17 @@
       width: 80%;
       opacity: 0.7;
       position: absolute;
-      top: 255px;
+      top: 333px;
       display: none;
     }
 
     &:hover {
       .image {
-        opacity: 0.8
+        opacity: 0.8;
+      }
+
+      & .background-image {
+        
       }
 
       .custom-button {
